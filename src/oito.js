@@ -4,7 +4,7 @@ while (i < 6) {
   nro = nro * 100;
   nro = Math.floor(nro);
 
-  if ((nro % 3 == 0 || nro % 5 == 0) && > 20){
+  if ((nro % 3 == 0 || nro % 5 == 0) && nro > 20){
     console.log(nro);
     i = i + 1;
   }

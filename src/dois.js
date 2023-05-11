@@ -1,4 +1,6 @@
 let entrada = 60
+entrada = parseInt(entrada)
+;
 ;
 if( entrada < 18 ){
  console.log("de menor");
